@@ -1,0 +1,109 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Abadi);
+#header-title {
+  font-family: "Abadi", sans-serif;
+  float: left;
+  font-weight: 800;
+  color: #FBFDFD;
+  font-size: 40px;
+  padding: 10px 0px 0px 0px;
+  margin: -10px auto 0px auto;
+  display: block;
+}
+#header-title:hover {
+  color: #7001A9;
+  background-color: white;
+  <!--border: 1px solid #f1a94e-->;
+}
+#header {
+  background-color: #900C3F;
+  height: 150px;
+  line-height: 150px;
+}
+#header-title {
+
+}
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+#header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+#header a:hover {
+  color: #A3F085;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #555;
+  margin: 0;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+#footer {
+  background-color: #2f2f2f;
+  padding: 50px 0;
+}
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+#footer p {
+  color: white;
+}
+a {
+  color: #85D1F0;
+  text-decoration: none;
+}
+a:hover {
+  color: #F6A623;
+}
+p, li {
+  max-width:800px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+#content {
+  max-width:800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+#myProfile {
+  margin-bottom: -15px;
+}
+#photo-author {
+   vertical-align: left;
+   float: left;
+   width: 120px;
+   height: 160px;
+   padding: 5px;
+   margin: 37px 25px 25px -73px;
+   background-color: #44b3c2;
+}
+#contact, #consultancyServices, #moreAboutUs, .post-author  {
+  margin-left: 10px;
+}
+h1, h2, h3, h4 {
+  color: #333;
+  padding: 20px 0 0 150px;
+}
+#myLinks, #myStory {
+  color: #333;
+  padding: 0px;
+}
